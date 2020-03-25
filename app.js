@@ -1,7 +1,6 @@
 const http = require("http");
 
 http.createServer((request , response) => {
-	response.write("Hello World");
 	switch(request.url){
 		case "/":
 		response.write("MAIN PAGE")
